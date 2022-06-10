@@ -6,8 +6,11 @@ type User {
     _id: ID
     username: String
     email: String
+    bookCount: Int
     savedBooks: [Book]
-} type Book {
+} 
+
+type Book {
     bookId: String
     authors: [String]
     description: String
